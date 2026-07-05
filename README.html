@@ -1,0 +1,184 @@
+# fungames678.github.io
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Hotel Aqua Serena – Buchungsbestätigung</title>
+<style>
+  body {
+    margin: 0;
+    padding: 40px 20px;
+    background: #eef1f5;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    background: #ffffff;
+    max-width: 480px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    overflow: hidden;
+  }
+
+  .header {
+    background: linear-gradient(135deg, #0e2a4a, #14395f);
+    color: #fff;
+    padding: 28px 30px;
+  }
+
+  .header .label {
+    letter-spacing: 3px;
+    font-size: 12px;
+    color: #9fb8d4;
+    margin-bottom: 8px;
+  }
+
+  .header h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #f2c879;
+    font-weight: 600;
+  }
+
+  .header .location {
+    color: #cdd8e6;
+    margin-top: 4px;
+    font-size: 14px;
+  }
+
+  .section {
+    padding: 22px 30px;
+    border-bottom: 1px solid #e7eaee;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .field .label {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #8a93a0;
+    margin-bottom: 6px;
+  }
+
+  .field .value {
+    font-size: 18px;
+    color: #1c2733;
+    font-weight: 500;
+  }
+
+  .field.big .value {
+    font-size: 32px;
+    color: #c98f2f;
+    font-weight: 700;
+  }
+
+  .checkinout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .arrow {
+    font-size: 22px;
+    color: #b7bfc8;
+  }
+
+  ul.amenities {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+
+  ul.amenities li {
+    padding: 6px 0;
+    color: #1c2733;
+    font-size: 15px;
+  }
+
+  ul.amenities li::before {
+    content: "●";
+    color: #c98f2f;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 16px;
+    font-size: 12px;
+    color: #8a93a0;
+    background: #f7f8fa;
+  }
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="header">
+      <div class="label">SPA &amp; WELLNESS</div>
+      <h1>Hotel Aqua Serena</h1>
+      <div class="location">Lichtenmoor</div>
+    </div>
+
+    <div class="section">
+      <div class="row">
+        <div class="field">
+          <div class="label">Gast</div>
+          <div class="value">D. von Kraftzig</div>
+        </div>
+        <div class="field">
+          <div class="label">Zimmertyp</div>
+          <div class="value">Doppelzimmer</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="row">
+        <div class="field big">
+          <div class="label">Zimmer</div>
+          <div class="value">214</div>
+        </div>
+        <div class="field">
+          <div class="label">Datum</div>
+          <div class="value">14. Februar 2026</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="checkinout">
+        <div class="field">
+          <div class="label">Check-in</div>
+          <div class="value">20:00 Uhr</div>
+        </div>
+        <div class="arrow">&#8594;</div>
+        <div class="field">
+          <div class="label">Check-out</div>
+          <div class="value">24:00 Uhr</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" style="border-bottom:none;">
+      <div class="label">Inklusivleistungen</div>
+      <ul class="amenities">
+        <li>Whirlpool</li>
+        <li>Saunabereich</li>
+        <li>Wellnessbereich</li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
